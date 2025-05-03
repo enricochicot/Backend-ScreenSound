@@ -1,4 +1,4 @@
-🎵 Screen Sound
+#🎵 Screen Sound
 
 Este é um projeto de aplicação de console desenvolvido em C#, que permite o registro, exibição e avaliação de bandas musicais.
 A aplicação foi construída com foco no aprendizado de estruturas básicas da linguagem C#, como listas, dicionários, controle de fluxo e interação com o usuário no terminal.
