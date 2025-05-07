@@ -5,10 +5,10 @@ namespace Backend_ScreenSound.Menus
 {
     internal class MenuAvaliarBanda : Menu //método de herança aplicado, quando criado a classe de menu
     {
-        public void Executar(Dictionary<string, Banda> bandasRegistradas)
+        public override void Executar(Dictionary<string, Banda> bandasRegistradas)
         {
             //se a banda existir no dicionario >> atribuir uma nota
-            Console.Clear();
+            base.Executar(bandasRegistradas);
             ExibirTituloDaOpcao("Avaliar banda"); //herdado da classe menu permitiu que importassemos o titulo da opção 
             Console.WriteLine("Digite o nome da banda que deseja avaliar");
             string nomeDaBanda = Console.ReadLine()!;

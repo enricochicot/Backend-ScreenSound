@@ -23,6 +23,7 @@ internal class Program
         opcoes.Add(3, new MenuAvaliarBanda());
         opcoes.Add(4, new MenuExibirDetalhes());
         opcoes.Add(5, new MenuMostrarBandas());
+        opcoes.Add(6, new MenuAvaliarAlbum());
         opcoes.Add(-1, new MenuSair());
 
 
@@ -47,6 +48,7 @@ internal class Program
             Console.WriteLine("Digite 3 para avaliar uma banda");
             Console.WriteLine("Digite 4 para exibir a média de uma banda");
             Console.WriteLine("Digite 5 para mostrar as bandas registradas");
+            Console.WriteLine("Digite 6 para avaliar um álbum");
             Console.WriteLine("Digite -1 para sair");
 
             Console.Write("\nDigite a sua opção: ");
